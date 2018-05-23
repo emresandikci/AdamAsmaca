@@ -1,0 +1,8 @@
+c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\bin\Debug\WFAdamAsmaca.exe
+c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\bin\Debug\WFAdamAsmaca.pdb
+c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.csprojResolveAssemblyReference.cache
+c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.Properties.Resources.resources
+c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.csproj.GenerateResource.Cache
+c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.exe
+c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.pdb
+c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.Form1.resources
