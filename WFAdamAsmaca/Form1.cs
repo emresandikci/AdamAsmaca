@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Collections;
+using System.IO;
+
 namespace WFAdamAsmaca
 {
     public partial class Form1 : Form
@@ -23,20 +25,20 @@ namespace WFAdamAsmaca
             this.BackColor = Color.SlateGray;
 
             #region Picturbox Resim yolları
-            ptbKafa.Image = Image.FromFile("../../kafa.JPG");
+            ptbKafa.Image = Image.FromFile($"{Path.GetDirectoryName(Application.ExecutablePath)}/Adam/kafa.jpg");
             ptbKafa.BackgroundImageLayout = ImageLayout.Stretch;
-            ptbGovde.Image = Image.FromFile("../../govde.jpg");
+            ptbGovde.Image = Image.FromFile($"{Path.GetDirectoryName(Application.ExecutablePath)}/Adam/govde.jpg");
             ptbGovde.BackgroundImageLayout = ImageLayout.Stretch;
-            ptbSagBacak.Image = Image.FromFile("../../sagayak.jpg");
+            ptbSagBacak.Image = Image.FromFile($"{Path.GetDirectoryName(Application.ExecutablePath)}/Adam/sagayak.jpg");
             ptbSagBacak.BackgroundImageLayout = ImageLayout.Stretch;
-            ptbSolBacak.Image = Image.FromFile("../../solayak.jpg");
+            ptbSolBacak.Image = Image.FromFile($"{Path.GetDirectoryName(Application.ExecutablePath)}/Adam/solayak.jpg");
             ptbSolBacak.BackgroundImageLayout = ImageLayout.Stretch;
-            ptSagKol.Image = Image.FromFile("../../sagkol.JPG");
+            ptSagKol.Image = Image.FromFile($"{Path.GetDirectoryName(Application.ExecutablePath)}/Adam/sagkol.JPG");
             ptSagKol.BackgroundImageLayout = ImageLayout.Stretch;
-            ptbSolKol.Image = Image.FromFile("../../solkol.JPG");
-            ptbSolKol.BackgroundImageLayout = ImageLayout.Stretch; 
+            ptbSolKol.Image = Image.FromFile($"{Path.GetDirectoryName(Application.ExecutablePath)}/Adam/solkol.JPG");
+            ptbSolKol.BackgroundImageLayout = ImageLayout.Stretch;
             #endregion
-
+            PicturboxDefault();
         }
 
         #region Global Tanımlamalar
@@ -133,11 +135,12 @@ namespace WFAdamAsmaca
           
         private void KelimeOku()
         {
+            Hak = 7;
             lblTahminHakki.Text=lblHarfSayisi.Text = string.Empty;
             a = rnd.Next(1, 4);
             Kelime = KelimeKutusu[a];
             lblHarfSayisi.Text +="Harf Sayısı: "+Kelime.Length.ToString();
-            lblTahminHakki.Text +="Tahmin Hakkı: "+Convert.ToString(Hak)+Kelime;
+            lblTahminHakki.Text +="Tahmin Hakkı: "+Convert.ToString(Hak);
             
             KelimeTahminiOlustur();
             
@@ -194,6 +197,5 @@ namespace WFAdamAsmaca
                 }
             }
         }
-     
     }
 }

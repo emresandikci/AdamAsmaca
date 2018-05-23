@@ -6,3 +6,11 @@ c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAs
 c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.exe
 c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.pdb
 c:\users\cyberpchome\documents\visual studio 2012\Projects\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.Form1.resources
+C:\Users\emresandikci\Desktop\WFAdamAsmaca\WFAdamAsmaca\bin\Debug\WFAdamAsmaca.exe
+C:\Users\emresandikci\Desktop\WFAdamAsmaca\WFAdamAsmaca\bin\Debug\WFAdamAsmaca.pdb
+C:\Users\emresandikci\Desktop\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.Form1.resources
+C:\Users\emresandikci\Desktop\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.Properties.Resources.resources
+C:\Users\emresandikci\Desktop\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.csproj.GenerateResource.cache
+C:\Users\emresandikci\Desktop\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.csproj.CoreCompileInputs.cache
+C:\Users\emresandikci\Desktop\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.exe
+C:\Users\emresandikci\Desktop\WFAdamAsmaca\WFAdamAsmaca\obj\Debug\WFAdamAsmaca.pdb
